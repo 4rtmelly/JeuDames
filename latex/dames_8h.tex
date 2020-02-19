@@ -1,0 +1,147 @@
+\hypertarget{dames_8h}{}\doxysection{dames.\+h File Reference}
+\label{dames_8h}\index{dames.h@{dames.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+\doxysubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structpion}{pion}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{dames_8h_aa1f0559f8030e9c4a7434d677c854527}{DB}}~2
+\item 
+\#define \mbox{\hyperlink{dames_8h_a2a06f3773d46878dc58f8dadd6fd0d72}{PB}}~1
+\item 
+\#define \mbox{\hyperlink{dames_8h_ad6ebbc68b0071f082925e51e4f2bd9a8}{DN}}~-\/2
+\item 
+\#define \mbox{\hyperlink{dames_8h_a984064e7795cca571ec0d97edde6b288}{PN}}~-\/1
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structpion}{pion}} \mbox{\hyperlink{dames_8h_a81b354881e1bc7d76f8936a95764fc42}{pion}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{dames_8h_ab423d22f498c2c3c0f5f18adaaf4932d}{afficher}} (\mbox{\hyperlink{structpion}{pion}} ma)
+\item 
+void \mbox{\hyperlink{dames_8h_aff606b6899bc21fecb603cb532334b89}{jeu\+\_\+graphique}} (\mbox{\hyperlink{structpion}{pion}} ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]})
+\item 
+void \mbox{\hyperlink{dames_8h_ab41f57b25914d9fa490ef6d9c92d465e}{initialisation}} (\mbox{\hyperlink{structpion}{pion}} ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]})
+\item 
+int \mbox{\hyperlink{dames_8h_a65e7714f03c34733547dec0d6ae303ab}{depl\+\_\+valide}} (\mbox{\hyperlink{structpion}{pion}} ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]}, int depart\mbox{[}2\mbox{]}, int arrivee\mbox{[}2\mbox{]})
+\item 
+int \mbox{\hyperlink{dames_8h_adc5901c42e760cf15b5fe8d5faa1c20a}{depl\+\_\+diagonale}} (\mbox{\hyperlink{structpion}{pion}} ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]}, int depart\mbox{[}2\mbox{]}, int arrivee\mbox{[}2\mbox{]})
+\item 
+int \mbox{\hyperlink{dames_8h_ac8fd7326dede2359b8b75d7ec9c1e0f3}{depl\+\_\+valide\+\_\+dames}} (\mbox{\hyperlink{structpion}{pion}} ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]}, int depart\mbox{[}2\mbox{]}, int arrivee\mbox{[}2\mbox{]})
+\item 
+int \mbox{\hyperlink{dames_8h_aa04805970ebd5260834000b978b750a8}{deplacement}} (\mbox{\hyperlink{structpion}{pion}} ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]}, int depart\mbox{[}2\mbox{]}, int arrivee\mbox{[}2\mbox{]})
+\item 
+int \mbox{\hyperlink{dames_8h_a4131e38d950858065a918bd2713863fa}{remanger}} (\mbox{\hyperlink{structpion}{pion}} ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]}, int depart\mbox{[}2\mbox{]})
+\item 
+int \mbox{\hyperlink{dames_8h_aec768d88e5cc7a05341b31b0282b26a6}{Partie\+Finie}} (\mbox{\hyperlink{structpion}{pion}} ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]})
+\item 
+int \mbox{\hyperlink{dames_8h_ad0681de731533bb6fa6e081eacb3c84c}{Partie\+Egale}} (\mbox{\hyperlink{structpion}{pion}} ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{dames_8h_aa1f0559f8030e9c4a7434d677c854527}\label{dames_8h_aa1f0559f8030e9c4a7434d677c854527}} 
+\index{dames.h@{dames.h}!DB@{DB}}
+\index{DB@{DB}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{DB}{DB}}
+{\footnotesize\ttfamily \#define DB~2}
+
+\mbox{\Hypertarget{dames_8h_ad6ebbc68b0071f082925e51e4f2bd9a8}\label{dames_8h_ad6ebbc68b0071f082925e51e4f2bd9a8}} 
+\index{dames.h@{dames.h}!DN@{DN}}
+\index{DN@{DN}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{DN}{DN}}
+{\footnotesize\ttfamily \#define DN~-\/2}
+
+\mbox{\Hypertarget{dames_8h_a2a06f3773d46878dc58f8dadd6fd0d72}\label{dames_8h_a2a06f3773d46878dc58f8dadd6fd0d72}} 
+\index{dames.h@{dames.h}!PB@{PB}}
+\index{PB@{PB}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{PB}{PB}}
+{\footnotesize\ttfamily \#define PB~1}
+
+\mbox{\Hypertarget{dames_8h_a984064e7795cca571ec0d97edde6b288}\label{dames_8h_a984064e7795cca571ec0d97edde6b288}} 
+\index{dames.h@{dames.h}!PN@{PN}}
+\index{PN@{PN}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{PN}{PN}}
+{\footnotesize\ttfamily \#define PN~-\/1}
+
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{dames_8h_a81b354881e1bc7d76f8936a95764fc42}\label{dames_8h_a81b354881e1bc7d76f8936a95764fc42}} 
+\index{dames.h@{dames.h}!pion@{pion}}
+\index{pion@{pion}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{pion}{pion}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structpion}{pion}} \mbox{\hyperlink{structpion}{pion}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{dames_8h_ab423d22f498c2c3c0f5f18adaaf4932d}\label{dames_8h_ab423d22f498c2c3c0f5f18adaaf4932d}} 
+\index{dames.h@{dames.h}!afficher@{afficher}}
+\index{afficher@{afficher}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{afficher()}{afficher()}}
+{\footnotesize\ttfamily void afficher (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpion}{pion}}}]{ma }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dames_8h_adc5901c42e760cf15b5fe8d5faa1c20a}\label{dames_8h_adc5901c42e760cf15b5fe8d5faa1c20a}} 
+\index{dames.h@{dames.h}!depl\_diagonale@{depl\_diagonale}}
+\index{depl\_diagonale@{depl\_diagonale}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{depl\_diagonale()}{depl\_diagonale()}}
+{\footnotesize\ttfamily int depl\+\_\+diagonale (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpion}{pion}}}]{ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]},  }\item[{int}]{depart\mbox{[}2\mbox{]},  }\item[{int}]{arrivee\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dames_8h_a65e7714f03c34733547dec0d6ae303ab}\label{dames_8h_a65e7714f03c34733547dec0d6ae303ab}} 
+\index{dames.h@{dames.h}!depl\_valide@{depl\_valide}}
+\index{depl\_valide@{depl\_valide}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{depl\_valide()}{depl\_valide()}}
+{\footnotesize\ttfamily int depl\+\_\+valide (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpion}{pion}}}]{ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]},  }\item[{int}]{depart\mbox{[}2\mbox{]},  }\item[{int}]{arrivee\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dames_8h_ac8fd7326dede2359b8b75d7ec9c1e0f3}\label{dames_8h_ac8fd7326dede2359b8b75d7ec9c1e0f3}} 
+\index{dames.h@{dames.h}!depl\_valide\_dames@{depl\_valide\_dames}}
+\index{depl\_valide\_dames@{depl\_valide\_dames}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{depl\_valide\_dames()}{depl\_valide\_dames()}}
+{\footnotesize\ttfamily int depl\+\_\+valide\+\_\+dames (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpion}{pion}}}]{ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]},  }\item[{int}]{depart\mbox{[}2\mbox{]},  }\item[{int}]{arrivee\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dames_8h_aa04805970ebd5260834000b978b750a8}\label{dames_8h_aa04805970ebd5260834000b978b750a8}} 
+\index{dames.h@{dames.h}!deplacement@{deplacement}}
+\index{deplacement@{deplacement}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{deplacement()}{deplacement()}}
+{\footnotesize\ttfamily int deplacement (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpion}{pion}}}]{ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]},  }\item[{int}]{depart\mbox{[}2\mbox{]},  }\item[{int}]{arrivee\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dames_8h_ab41f57b25914d9fa490ef6d9c92d465e}\label{dames_8h_ab41f57b25914d9fa490ef6d9c92d465e}} 
+\index{dames.h@{dames.h}!initialisation@{initialisation}}
+\index{initialisation@{initialisation}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{initialisation()}{initialisation()}}
+{\footnotesize\ttfamily void initialisation (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpion}{pion}}}]{ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dames_8h_aff606b6899bc21fecb603cb532334b89}\label{dames_8h_aff606b6899bc21fecb603cb532334b89}} 
+\index{dames.h@{dames.h}!jeu\_graphique@{jeu\_graphique}}
+\index{jeu\_graphique@{jeu\_graphique}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{jeu\_graphique()}{jeu\_graphique()}}
+{\footnotesize\ttfamily void jeu\+\_\+graphique (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpion}{pion}}}]{ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dames_8h_ad0681de731533bb6fa6e081eacb3c84c}\label{dames_8h_ad0681de731533bb6fa6e081eacb3c84c}} 
+\index{dames.h@{dames.h}!PartieEgale@{PartieEgale}}
+\index{PartieEgale@{PartieEgale}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{PartieEgale()}{PartieEgale()}}
+{\footnotesize\ttfamily int Partie\+Egale (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpion}{pion}}}]{ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dames_8h_aec768d88e5cc7a05341b31b0282b26a6}\label{dames_8h_aec768d88e5cc7a05341b31b0282b26a6}} 
+\index{dames.h@{dames.h}!PartieFinie@{PartieFinie}}
+\index{PartieFinie@{PartieFinie}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{PartieFinie()}{PartieFinie()}}
+{\footnotesize\ttfamily int Partie\+Finie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpion}{pion}}}]{ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{dames_8h_a4131e38d950858065a918bd2713863fa}\label{dames_8h_a4131e38d950858065a918bd2713863fa}} 
+\index{dames.h@{dames.h}!remanger@{remanger}}
+\index{remanger@{remanger}!dames.h@{dames.h}}
+\doxysubsubsection{\texorpdfstring{remanger()}{remanger()}}
+{\footnotesize\ttfamily int remanger (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpion}{pion}}}]{ma\mbox{[}10\mbox{]}\mbox{[}10\mbox{]},  }\item[{int}]{depart\mbox{[}2\mbox{]} }\end{DoxyParamCaption})}
+
